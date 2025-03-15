@@ -2,11 +2,13 @@ import {useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Button from "./components/Button.jsx";
 
 function App() {
     const [count, setCount] = useState(0)
 
-    return (<>
+    return (
+        <>
             <div>
                 <a href="https://vite.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo"/>
@@ -23,8 +25,10 @@ function App() {
                 <button onClick={() => setCount(0)}>
                     reset count
                 </button>
-
             </div>
+        <div className="ButtonsTest">
+           <Button label="GITHUB" link="http://github.com/technozombie" id="github-button"/>
+        </div>
 
         </>)
 }
