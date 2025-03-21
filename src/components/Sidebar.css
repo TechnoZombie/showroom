@@ -1,0 +1,48 @@
+/* Sidebar container */
+.sidebar-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 200px; /* Adjust width as needed */
+    background-color: #242424; /* Match your app's background or choose a contrasting color */
+    padding: 20px;
+    overflow-y: auto; /* In case there are many buttons */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Your existing vertical buttons styling */
+.vertical-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between buttons */
+}
+
+/* Your existing button styling */
+button {
+    width: 100%; /* Make buttons full width of the sidebar */
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #ff7600;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Add this to adjust your main content to make room for the sidebar */
+.main-content {
+    margin-left: 200px; /* Same as sidebar width */
+    padding: 20px;
+}

@@ -1,22 +1,37 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import {Link} from "react-router-dom";
-import * as FaIcons from "react-icons/fa";
-
+import Button from "./Button.jsx";
+import "./Sidebar.css";
 
 function Sidebar() {
     return (
-        <div>
-<Link to="#" className="sidebar">
-    <FaIcons.FaBars/>
 
-</Link>
+        <div className="sidebar-container">
+        <div className="vertical-buttons">
+
+            <Button
+                children={"About"}
+                link="#about"
+            />
+
+            <Button
+                children={"Currency Converter"}
+                link="#currencyConverter"
+            />
+
+            <Button
+                children={"Chuck Norris: Facts."}
+                link="#chuckNorris"
+                />
+
+            <Button
+                children={"GitHub Repo"}
+                link="https://github.com/technozombie"
+            />
+        </div>
         </div>
     );
-};
+}
 
-Sidebar.propTypes = {
-
-};
+Sidebar.propTypes = {};
 
 export default Sidebar;

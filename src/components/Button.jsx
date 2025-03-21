@@ -1,24 +1,24 @@
-function Button({ label, link, id, onClick }) {
-    // Check if it's an external link (starts with http/https or contains a domain)
-    const isExternal = link.startsWith('http') || link.includes('.');
+import { useNavigate } from 'react-router-dom';
 
-    if (isExternal) {
-        return (
-            <a href={link.startsWith('http') ? link : `https://${link}`}
-               className="Button"
-               id={id}
-               onClick={onClick}
-               target="_blank"
-               rel="noopener noreferrer">
-                {label}
-            </a>
-        );
-    }
+function Button({ className, children, link, id, onClick }) {
+    const navigate = useNavigate();
+
+    const handleClick = (e) => {
+        if (onClick) onClick(e);
+
+        if (link) {
+            if (link.startsWith('http://') || link.startsWith('https://')) {
+                window.open(link, '_blank', 'noopener,noreferrer');
+            } else {
+                navigate(link);
+            }
+        }
+    };
 
     return (
-        <Link to={link} className="Button" id={id} onClick={onClick}>
-            {label}
-        </Link>
+        <button className={className} id={id} onClick={handleClick}>
+            {children}
+        </button>
     );
 }
 
