@@ -1,12 +1,10 @@
-import {useState} from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import Button from "./components/Button.jsx";
+import './App.css';
+import './components/Main.css';
+import './components/Header.css';
+
 import Sidebar from "./components/Sidebar.jsx";
 import Header from "./components/Header.jsx";
-
 function App() {
-    const [count, setCount] = useState(0)
 
     return (
         <>
@@ -14,14 +12,13 @@ function App() {
                 <Header/>
             </div>
 
+            <Sidebar/>
 
 
-            <div className="ButtonsTest">
+            <div className="main-content">
 
-                <Sidebar>
-
-                </Sidebar>
             </div>
+
 
         </>)
 }

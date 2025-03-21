@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.main-content {
+    margin-left: 200px; /* Same as sidebar width */
+    margin-top: 60px; /* Same as header height */
+    padding: 20px;
+    min-height: calc(100vh - 60px);
+    overflow-y: auto;
+}
