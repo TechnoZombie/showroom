@@ -6,28 +6,37 @@ function Sidebar() {
     return (
 
         <div className="sidebar-container">
-        <div className="vertical-buttons">
+            <div className="vertical-buttons">
 
-            <Button
-                children={"About"}
-                link="#about"
-            />
-
-            <Button
-                children={"Currency Converter"}
-                link="#currencyConverter"
-            />
-
-            <Button
-                children={"Chuck Norris: Facts."}
-                link="#chuckNorris"
+                <Button
+                    children={"Home"}
+                    link="/"
+                />
+                <Button
+                    children={"About"}
+                    link="About"
                 />
 
-            <Button
-                children={"GitHub Repo"}
-                link="https://github.com/technozombie"
-            />
-        </div>
+                <Button
+                    children={"Currency Converter"}
+                    link="CurrencyConverter"
+                />
+
+                <Button
+                    children={"QRCode Generator"}
+                    link="QRCodeGenerator"
+                />
+
+                <Button
+                    children={"Chuck Norris: Facts."}
+                    link="ChuckNorrisFacts"
+                />
+
+                <Button
+                    children={"Visit GitHub Repo"}
+                    link="https://github.com/technozombie"
+                />
+            </div>
         </div>
     );
 }
