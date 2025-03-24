@@ -1,0 +1,47 @@
+/* Sidebar container */
+.sidebar-container {
+    position: fixed;
+    left: 0;
+    top: 0; /* Start from the very top now */
+    height: 100vh; /* Full viewport height */
+    width: 200px;
+    background-color: #242424;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 101; /* Ensure sidebar is above header if needed */
+}
+
+.vertical-buttons {height: calc(100vh - 60px); /* Full viewport height minus header */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between buttons */
+}
+
+button {
+    width: 100%; /* Make buttons full width of the sidebar */
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #ff7600;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Add this to adjust your main content to make room for the sidebar */
+.main-content {
+    margin-left: 200px; /* Same as sidebar width */
+    padding: 20px;
+}

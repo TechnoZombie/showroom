@@ -1,22 +1,62 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import {Link} from "react-router-dom";
-import * as FaIcons from "react-icons/fa";
-
+import Button from "./Button.jsx";
+import "./Sidebar.css";
+import PixelPainterEnhanced from "./PixelPainterEnhanced.jsx";
 
 function Sidebar() {
     return (
-        <div>
-<Link to="#" className="sidebar">
-    <FaIcons.FaBars/>
 
-</Link>
+        <div className="sidebar-container">
+            <div className="vertical-buttons">
+
+                <Button
+                    children={"Home"}
+                    link="/"
+                />
+                <Button
+                    children={"About"}
+                    link="About"
+                />
+
+                <Button
+                    children={"Currency Converter"}
+                    link="CurrencyConverter"
+                />
+
+                <Button
+                    children={"QRCode Generator"}
+                    link="QRCodeGenerator"
+                />
+
+                <Button
+                    children={"Chuck Norris: Facts."}
+                    link="ChuckNorrisFacts"
+                />
+
+                <Button
+                    children={"Spacenewzz"}
+                    link="Spacenewzz"
+                    />
+
+                <Button children={"PixelPainter"}
+                        link="PixelPainter"
+                />
+
+                <Button children={"PixelPainter: Enhanced!"}
+                        link="PixelPainterEnhanced"
+                />
+
+                <Button children={"Simplegraphz"} link="Simplegraphz"
+                />
+                <Button
+                    children={"Visit GitHub Repo"}
+                    link="https://github.com/technozombie"
+                />
+            </div>
         </div>
     );
-};
+}
 
-Sidebar.propTypes = {
-
-};
+Sidebar.propTypes = {};
 
 export default Sidebar;
