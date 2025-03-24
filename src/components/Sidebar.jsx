@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "./Button.jsx";
 import "./Sidebar.css";
+import PixelPainterEnhanced from "./PixelPainterEnhanced.jsx";
 
 function Sidebar() {
     return (
@@ -32,6 +33,21 @@ function Sidebar() {
                     link="ChuckNorrisFacts"
                 />
 
+                <Button
+                    children={"Spacenewzz"}
+                    link="Spacenewzz"
+                    />
+
+                <Button children={"PixelPainter"}
+                        link="PixelPainter"
+                />
+
+                <Button children={"PixelPainter: Enhanced!"}
+                        link="PixelPainterEnhanced"
+                />
+
+                <Button children={"Simplegraphz"} link="Simplegraphz"
+                />
                 <Button
                     children={"Visit GitHub Repo"}
                     link="https://github.com/technozombie"
