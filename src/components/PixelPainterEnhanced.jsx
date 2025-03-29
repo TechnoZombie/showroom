@@ -7,14 +7,12 @@ const PixelPainterEnhanced = () => {
         <div className="readme-container">
             <ImageGallery
                 images={[
-                    {src: "f1.jpg", alt: "Image 1"},
-                    {src: "f2.jpeg", alt: "Image 2"},
-                    {src: "f3.jpg", alt: "Image 3"},
-                    {src: "f4.jpeg", alt: "Image 3"},
-                    {src: "f5.jpg", alt: "Image 3"},
-                    {src: "f6.jpeg", alt: "Image 3"},
-                    {src: "f7.jpg", alt: "Image 3"},
-                    {src: "f8.jpeg", alt: "Image 3"},
+                    {src: "public/ppe/ppe01.png", alt: "Main Screen"},
+                    {src: "public/ppe/ppe02.png", alt: "Edit Menu"},
+                    {src: "public/ppe/ppe03.png", alt: "Manager Menu"},
+                    {src: "public/ppe/ppe04.png", alt: "Help Menu"},
+                    {src: "public/ppe/ppe05.png", alt: "Custom Color input"},
+                    {src: "public/ppe/ppe06.png", alt: "Color Select Menu"},
                 ]}
             />
 

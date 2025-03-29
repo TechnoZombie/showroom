@@ -4,7 +4,7 @@
     left: 0;
     top: 0; /* Start from the very top now */
     height: 100vh; /* Full viewport height */
-    width: 200px;
+    width: 12vw;
     background-color: #242424;
     padding: 20px;
     overflow-y: auto;
