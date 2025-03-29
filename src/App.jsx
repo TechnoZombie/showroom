@@ -11,6 +11,7 @@ import About from "./components/About.jsx";
 import Intro from "./components/Intro.jsx";
 import QRCodeGenerator from "./components/QRCodeGenerator.jsx";
 import Showcase from "./components/Showcase.jsx";
+import PixelPainterEnhanced from "./components/PixelPainterEnhanced.jsx";
 
 function App() {
 
@@ -20,8 +21,8 @@ function App() {
               <Header/>
             </div>*/}
 
-            <Sidebar/>
-            <Showcase/>
+           <Sidebar/>
+           <Showcase/>
 
         </>)
 }
