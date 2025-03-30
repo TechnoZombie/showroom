@@ -18,7 +18,7 @@ const PixelPainterEnhanced = () => {
 
             <h1>PixelPainter: Enhanced!</h1>
 
-            <p>A Java-based pixel art creation tool that combines simplicity with powerful features. PixelPainter
+            <p>A Java-based pixel art creation tool that combines simplicity with powerful features. PixelPainter: Enhanced!
                 provides an intuitive grid-based canvas where users can create pixel art through a combination of
                 keyboard controls and mouse interactions (work in progress).</p>
 
@@ -26,17 +26,17 @@ const PixelPainterEnhanced = () => {
                 improvements. The main goal was to implement a GUI for the application, making it more user-friendly and
                 accessible. It then grew large enough to be its own project and repository. The original can be found
                 here: <a
-                    href="https://github.com/TechnoZombie/PixelPainter">https://github.com/TechnoZombie/PixelPainter</a>.
+                    href="https://github.com/TechnoZombie/PixelPainter">GitHub: PixelPainter</a>.
             </p>
 
-            <p>It also makes use of a <a href="https://github.com/TechnoZombie/Simplegraphz">custom graphics library</a>,
+            <p>It also makes use of a <a href="Simplegraphz">custom graphics library</a>,
                 based on <a href="https://github.com/academia-de-codigo/simple-graphics">simple-graphics</a> where
                 custom methods to allow for JFrame manipulation were added, as well as Lombok and Slf4j.</p>
 
             <h2>Project Overview</h2>
 
-            <p>PixelPainter is built with a focus on clean architecture and modular design. The application utilizes the
-                SimpleGraphZ library for graphics rendering and implements a robust event-handling system for user
+            <p>PixelPainter: Enhanced! is built with a focus on clean architecture and modular design. The application utilizes the
+                <a href="Simplegraphz"> Simplegraphz</a> library for graphics rendering and implements a robust event-handling system for user
                 interactions.</p>
 
             <h3>Core Components</h3>

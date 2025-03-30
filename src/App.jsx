@@ -1,6 +1,6 @@
 import './App.css';
-import './components/Showcase.css';
-import './components/Header.css';
+import './css/Showcase.css';
+import './css/Header.css';
 
 import Sidebar from "./components/Sidebar.jsx";
 import Header from "./components/Header.jsx";
