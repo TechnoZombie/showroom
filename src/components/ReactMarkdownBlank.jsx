@@ -3,9 +3,9 @@ import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import remarkGfm from 'remark-gfm';
-import pixelpainterMarkdown from "./markdownFiles/pixelpainter-markdown.js";
+import markdownConstName from "./markdownFiles/fileName.js";
 
-const PixelPainter = () => {
+const ReactMarkdownBlank = () => {
     return (
         <div className="readme-container">
             <ReactMarkdown
@@ -30,10 +30,10 @@ const PixelPainter = () => {
                     }
                 }}
             >
-                {pixelpainterMarkdown}
+                {markdownConstName}
             </ReactMarkdown>
         </div>
     );
 };
 
-export default PixelPainter;
+export default ReactMarkdownBlank;
