@@ -1,4 +1,4 @@
-import "./Showcase.css";
+import "../css/Showcase.css";
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Intro from "./Intro.jsx";

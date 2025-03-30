@@ -1,10 +1,10 @@
 import React from 'react';
+import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
+import pixelpainterMarkdown from "./markdownFiles/pixelpainter-markdown.js";
 
 const PixelPainter = () => {
     return (
-        <div>
-            <h1>PixelPainter</h1>
-        </div>
+        <MarkdownRenderer markdownContent={pixelpainterMarkdown}/>
     );
 };
 

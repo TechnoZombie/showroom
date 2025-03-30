@@ -1,10 +1,11 @@
 import React from 'react';
+import simplegraphzMarkdown from "./markdownFiles/simplegraphz-markdown.js";
+import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
 
 const Simplegraphz = () => {
+
     return (
-        <div >
-      <h1>Simplegraphz</h1>
-        </div>
+        <MarkdownRenderer markdownContent={simplegraphzMarkdown}/>
     );
 };
 
