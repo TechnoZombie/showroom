@@ -62,7 +62,7 @@ PixelPainter is a lightweight application that allows users to create pixel art 
 PixelPainter is built using:
 - Java
 - SimpleGraphics library for rendering
-                             - Object-oriented architecture with clear separation of concerns
+- Object-oriented architecture with clear separation of concerns
 
 ### Project Structure
 
@@ -88,7 +88,7 @@ PixelPainter is built using:
 
 1. Clone the repository:
     \`\`\`bash
-   git clone https://github.com/username/pixelpainter.git
+   git clone https://github.com/technozombie/pixelpainter.git
    \`\`\`
 
 2. Navigate to the project directory:
