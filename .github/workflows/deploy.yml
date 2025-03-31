@@ -22,11 +22,15 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Build project
-        run: npm run build
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
+      - name: Install crypto polyfill
+        run: npm install node-polyfill-webpack-plugin crypto-browserify
 
+      - name: Build project
+        run: |
+          export NODE_OPTIONS=--no-warnings
+          node --require ./node_modules/crypto-browserify/index.js ./node_modules/vite/bin/vite.js build
+        env:
+          VITE_CJS_IGNORE_WARNING: true
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
