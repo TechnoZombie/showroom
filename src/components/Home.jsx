@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
-import introPageMarkdown from "./markdownFiles/introPage-markdown.js";
+import homePageMarkdown from "./markdownFiles/homePage-markdown.js";
 
-const Intro = () => {
+const Home = () => {
     return (
         <>
             <motion.div
@@ -12,11 +12,11 @@ const Intro = () => {
                 exit={{opacity: 0}}
                 transition={{duration: 1.3}}
             >
-                    <MarkdownRenderer markdownContent={introPageMarkdown}/>
+                    <MarkdownRenderer markdownContent={homePageMarkdown}/>
 
             </motion.div>
         </>
     );
 }
 
-export default Intro;
+export default Home;

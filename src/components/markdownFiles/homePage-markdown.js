@@ -1,4 +1,4 @@
-const introPageMarkdown = `
+const homePageMarkdown = `
 # **TechnoZombie's Showroom**
 ## Welcome!
 ### Select a project on the sidebar to view..
@@ -7,4 +7,4 @@ const introPageMarkdown = `
 
 `
 
-export default introPageMarkdown;
+export default homePageMarkdown;

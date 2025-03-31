@@ -8,7 +8,7 @@ import {Route, Routes} from "react-router-dom";
 import CurrencyConverter from "./components/CurrencyConverter.jsx";
 import ChuckNorrisFacts from "./components/ChuckNorrisFacts.jsx";
 import About from "./components/About.jsx";
-import Intro from "./components/Intro.jsx";
+import Home from "./components/Home.jsx";
 import QRCodeGenerator from "./components/QRCodeGenerator.jsx";
 import Showcase from "./components/Showcase.jsx";
 import PixelPainterEnhanced from "./components/PixelPainterEnhanced.jsx";
