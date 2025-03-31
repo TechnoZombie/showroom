@@ -251,7 +251,7 @@ Ranging from webapps developed with React+Vite to plain JavaScript to Java apps 
 All projects have a link to their GitHub Repository where they can be seen in more detail.
 
 Thank you for your visit!
-`,EK=()=>oe.jsx(hr.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:oe.jsx(ms,{markdownContent:yK})}),vK="/showroom/flat-mugshot.jpg",SK=`
+`,EK=()=>oe.jsx(hr.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:oe.jsx(ms,{markdownContent:yK})}),vK="/flat-mugshot.jpg",SK=`
 # **TechnoZombie's Showroom**
 ## Welcome!
 ### Select a project on the sidebar to view..
@@ -539,4 +539,4 @@ PixelPainter is built using:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).`,kK=()=>oe.jsx(hr.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:oe.jsx(ms,{markdownContent:_K})});function CK(){return oe.jsx("div",{className:"showcase",children:oe.jsxs(HM,{children:[oe.jsx(bn,{path:"/",element:oe.jsx(Pb,{})}),oe.jsx(bn,{path:"/Home",element:oe.jsx(Pb,{})}),oe.jsx(bn,{path:"/About",element:oe.jsx(EK,{})}),oe.jsx(bn,{path:"/CurrencyConverter",element:oe.jsx(hK,{})}),oe.jsx(bn,{path:"/QRCodeGenerator",element:oe.jsx(TK,{})}),oe.jsx(bn,{path:"/ChuckNorrisFacts",element:oe.jsx(bK,{})}),oe.jsx(bn,{path:"/Spacenewzz",element:oe.jsx(wK,{})}),oe.jsx(bn,{path:"/PixelPainter",element:oe.jsx(kK,{})}),oe.jsx(bn,{path:"/PixelPainterEnhanced",element:oe.jsx(mK,{})}),oe.jsx(bn,{path:"/Simplegraphz",element:oe.jsx(RK,{})}),oe.jsx(bn,{path:"*",element:oe.jsx(Pb,{})})]})})}function xK(){return oe.jsxs(oe.Fragment,{children:[oe.jsx(P1,{}),oe.jsx(CK,{})]})}xU.createRoot(document.getElementById("root")).render(oe.jsx(pU,{basename:"/showroom",children:oe.jsx(xK,{})}));
+This project is licensed under the [MIT License](LICENSE).`,kK=()=>oe.jsx(hr.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:oe.jsx(ms,{markdownContent:_K})});function CK(){return oe.jsx("div",{className:"showcase",children:oe.jsxs(HM,{children:[oe.jsx(bn,{path:"/",element:oe.jsx(Pb,{})}),oe.jsx(bn,{path:"/Home",element:oe.jsx(Pb,{})}),oe.jsx(bn,{path:"/About",element:oe.jsx(EK,{})}),oe.jsx(bn,{path:"/CurrencyConverter",element:oe.jsx(hK,{})}),oe.jsx(bn,{path:"/QRCodeGenerator",element:oe.jsx(TK,{})}),oe.jsx(bn,{path:"/ChuckNorrisFacts",element:oe.jsx(bK,{})}),oe.jsx(bn,{path:"/Spacenewzz",element:oe.jsx(wK,{})}),oe.jsx(bn,{path:"/PixelPainter",element:oe.jsx(kK,{})}),oe.jsx(bn,{path:"/PixelPainterEnhanced",element:oe.jsx(mK,{})}),oe.jsx(bn,{path:"/Simplegraphz",element:oe.jsx(RK,{})}),oe.jsx(bn,{path:"*",element:oe.jsx(Pb,{})})]})})}function xK(){return oe.jsxs(oe.Fragment,{children:[oe.jsx(P1,{}),oe.jsx(CK,{})]})}xU.createRoot(document.getElementById("root")).render(oe.jsx(pU,{children:oe.jsx(xK,{})}));
