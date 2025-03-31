@@ -16,15 +16,15 @@ function Showcase() {
         <div className="showcase">
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="Home" element={<Home/>}/>
-                <Route path="About" element={<About/>}/>
-                <Route path="CurrencyConverter" element={<CurrencyConverter/>}/>
-                <Route path="QRCodeGenerator" element={<QRCodeGenerator/>}/>
-                <Route path="ChuckNorrisFacts" element={<ChuckNorrisFacts/>}/>
-                <Route path="Spacenewzz" element={<Spacenewzz/>}/>
-                <Route path="PixelPainter" element={<PixelPainter/>}/>
-                <Route path="PixelPainterEnhanced" element={<PixelPainterEnhanced/>}/>
-                <Route path="Simplegraphz" element={<Simplegraphz/>}/>
+                <Route path="/Home" element={<Home/>}/>
+                <Route path="/About" element={<About/>}/>
+                <Route path="/CurrencyConverter" element={<CurrencyConverter/>}/>
+                <Route path="/QRCodeGenerator" element={<QRCodeGenerator/>}/>
+                <Route path="/ChuckNorrisFacts" element={<ChuckNorrisFacts/>}/>
+                <Route path="/Spacenewzz" element={<Spacenewzz/>}/>
+                <Route path="/PixelPainter" element={<PixelPainter/>}/>
+                <Route path="/PixelPainterEnhanced" element={<PixelPainterEnhanced/>}/>
+                <Route path="/Simplegraphz" element={<Simplegraphz/>}/>
             </Routes>
 
         </div>);
