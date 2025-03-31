@@ -1,6 +1,5 @@
 import "../css/Showcase.css";
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
 import CurrencyConverter from "./CurrencyConverter.jsx";
@@ -10,6 +9,7 @@ import PixelPainterEnhanced from "./PixelPainterEnhanced.jsx";
 import Simplegraphz from "./Simplegraphz.jsx";
 import Spacenewzz from "./Spacenewzz.jsx";
 import PixelPainter from "./PixelPainter.jsx";
+import {Route, Routes} from "react-router-dom";
 
 function Showcase() {
     return (
