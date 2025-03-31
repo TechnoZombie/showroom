@@ -1,7 +1,9 @@
 import React from 'react';
 import {motion} from "framer-motion";
+import aboutMarkdown from "./markdownFiles/about-markdown.js";
+import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
 
-function About() {
+const About = () => {
     return (
         <motion.div
             initial={{opacity: 0}}
@@ -9,10 +11,7 @@ function About() {
             exit={{opacity: 0}}
             transition={{duration: 1.3}}
         >
-            <div className="main-content">
-                <p>Placeholder.</p>
-                <p>Lorem ipsum whatever the fucks</p>
-            </div>
+          <MarkdownRenderer markdownContent={aboutMarkdown}/>
         </motion.div>
     );
 }
