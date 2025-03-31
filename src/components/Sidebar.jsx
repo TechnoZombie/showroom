@@ -19,6 +19,11 @@ function Sidebar() {
                 />
 
                 <Button
+                    children={".this"}
+                    link="/.this"
+                />
+
+                <Button
                     children={"Currency Converter"}
                     link="/CurrencyConverter"
                 />
@@ -36,7 +41,7 @@ function Sidebar() {
                 <Button
                     children={"Spacenewzz"}
                     link="/Spacenewzz"
-                    />
+                />
 
                 <Button children={"PixelPainter"}
                         link="/PixelPainter"

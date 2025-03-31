@@ -10,6 +10,7 @@ import Simplegraphz from "./Simplegraphz.jsx";
 import Spacenewzz from "./Spacenewzz.jsx";
 import PixelPainter from "./PixelPainter.jsx";
 import {Route, Routes} from "react-router-dom";
+import ThisWebsite from "./ThisWebsite.jsx";
 
 function Showcase() {
     return (
@@ -18,6 +19,7 @@ function Showcase() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/Home" element={<Home/>}/>
                 <Route path="/About" element={<About/>}/>
+                <Route path="/.this" element={<ThisWebsite/>}/>
                 <Route path="/CurrencyConverter" element={<CurrencyConverter/>}/>
                 <Route path="/QRCodeGenerator" element={<QRCodeGenerator/>}/>
                 <Route path="/ChuckNorrisFacts" element={<ChuckNorrisFacts/>}/>
