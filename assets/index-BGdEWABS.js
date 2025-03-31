@@ -251,7 +251,7 @@ Ranging from webapps developed with React+Vite to plain JavaScript to Java apps 
 All projects have a link to their GitHub Repository where they can be seen in more detail.
 
 Thank you for your visit!
-`,EK=()=>oe.jsx(hr.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:oe.jsx(ms,{markdownContent:yK})}),vK="/flat-mugshot.jpg",SK=`
+`,EK=()=>oe.jsx(hr.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:oe.jsx(ms,{markdownContent:yK})}),vK="/showroom/flat-mugshot.jpg",SK=`
 # **TechnoZombie's Showroom**
 ## Welcome!
 ### Select a project on the sidebar to view..
