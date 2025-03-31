@@ -1,6 +1,6 @@
 import "../css/Showcase.css";
 import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
 import CurrencyConverter from "./CurrencyConverter.jsx";
@@ -13,21 +13,24 @@ import PixelPainter from "./PixelPainter.jsx";
 
 function Showcase() {
     return (
-        <div className="showcase">
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/Home" element={<Home/>}/>
-                <Route path="/About" element={<About/>}/>
-                <Route path="/CurrencyConverter" element={<CurrencyConverter/>}/>
-                <Route path="/QRCodeGenerator" element={<QRCodeGenerator/>}/>
-                <Route path="/ChuckNorrisFacts" element={<ChuckNorrisFacts/>}/>
-                <Route path="/Spacenewzz" element={<Spacenewzz/>}/>
-                <Route path="/PixelPainter" element={<PixelPainter/>}/>
-                <Route path="/PixelPainterEnhanced" element={<PixelPainterEnhanced/>}/>
-                <Route path="/Simplegraphz" element={<Simplegraphz/>}/>
-            </Routes>
-
-        </div>);
+        <Router basename="/showroom">
+            <div className="showcase">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/Home" element={<Home />} />
+                    <Route path="/About" element={<About />} />
+                    <Route path="/CurrencyConverter" element={<CurrencyConverter />} />
+                    <Route path="/QRCodeGenerator" element={<QRCodeGenerator />} />
+                    <Route path="/ChuckNorrisFacts" element={<ChuckNorrisFacts />} />
+                    <Route path="/Spacenewzz" element={<Spacenewzz />} />
+                    <Route path="/PixelPainter" element={<PixelPainter />} />
+                    <Route path="/PixelPainterEnhanced" element={<PixelPainterEnhanced />} />
+                    <Route path="/Simplegraphz" element={<Simplegraphz />} />
+                    <Route path="*" element={<Home />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default Showcase;
