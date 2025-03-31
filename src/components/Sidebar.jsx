@@ -15,39 +15,39 @@ function Sidebar() {
                 />
                 <Button
                     children={"About"}
-                    link="About"
+                    link="/About"
                 />
 
                 <Button
                     children={"Currency Converter"}
-                    link="CurrencyConverter"
+                    link="/CurrencyConverter"
                 />
 
                 <Button
                     children={"QRCode Generator"}
-                    link="QRCodeGenerator"
+                    link="/QRCodeGenerator"
                 />
 
                 <Button
                     children={"Chuck Norris: Facts."}
-                    link="ChuckNorrisFacts"
+                    link="/ChuckNorrisFacts"
                 />
 
                 <Button
                     children={"Spacenewzz"}
-                    link="Spacenewzz"
+                    link="/Spacenewzz"
                     />
 
                 <Button children={"PixelPainter"}
-                        link="PixelPainter"
+                        link="/PixelPainter"
                 />
 
                 <Button children={"PixelPainter: Enhanced!"}
-                        link="PixelPainterEnhanced"
+                        link="/PixelPainterEnhanced"
                 />
 
                 <Button children={"Simplegraphz"}
-                        link="Simplegraphz"
+                        link="/Simplegraphz"
                 />
                 <Button
                     children={"Visit GitHub Repo"}
