@@ -15,7 +15,7 @@ function Showcase() {
     return (
         <div className="showcase">
             <Routes>
-                <Route path="/" element={<Intro/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="Home" element={<Home/>}/>
                 <Route path="About" element={<About/>}/>
                 <Route path="CurrencyConverter" element={<CurrencyConverter/>}/>
