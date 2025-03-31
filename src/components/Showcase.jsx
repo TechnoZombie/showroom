@@ -13,7 +13,6 @@ import PixelPainter from "./PixelPainter.jsx";
 
 function Showcase() {
     return (
-        <Router basename="/showroom">
             <div className="showcase">
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -29,7 +28,7 @@ function Showcase() {
                     <Route path="*" element={<Home />} />
                 </Routes>
             </div>
-        </Router>
+
     );
 }
 

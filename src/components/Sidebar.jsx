@@ -11,7 +11,7 @@ function Sidebar() {
 
                 <Button
                     children={"Home"}
-                    link="/"
+                    link="/Home"
                 />
                 <Button
                     children={"About"}
