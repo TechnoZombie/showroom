@@ -10,7 +10,6 @@ import PixelPainterEnhanced from "./PixelPainterEnhanced.jsx";
 import Simplegraphz from "./Simplegraphz.jsx";
 import Spacenewzz from "./Spacenewzz.jsx";
 import PixelPainter from "./PixelPainter.jsx";
-import Home from "./Home.jsx";
 
 function Showcase() {
     return (
