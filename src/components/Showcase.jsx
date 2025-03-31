@@ -1,7 +1,7 @@
 import "../css/Showcase.css";
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
-import Intro from "./Intro.jsx";
+import Home from "/Home.jsx";
 import About from "./About.jsx";
 import CurrencyConverter from "./CurrencyConverter.jsx";
 import QRCodeGenerator from "./QRCodeGenerator.jsx";
