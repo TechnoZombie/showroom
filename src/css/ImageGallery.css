@@ -58,7 +58,7 @@
 .close-btn {
     position: absolute;
     top: 20px;
-    right: 30px;
+    right: -45vw;
     font-size: 30px;
     color: white;
     background: none;
@@ -83,10 +83,10 @@
 
 /* Move arrows outside the image */
 .nav-btn.left {
-    left: -35vw; /* Push left arrow further left */
+    left: -45vw; /* Push left arrow further left */
 }
 
 .nav-btn.right {
-    right: -35vw; /* Push right arrow further right */
+    right: -45vw; /* Push right arrow further right */
 }
 
