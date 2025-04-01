@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import pixelpainterEnhancedMarkdown from "./markdownFiles/pixelpainter-enhanced-markdown.js";
-import ImageGallery from "./ImageGallery.jsx";
+import ImageGallery from "../utils/ImageGallery.jsx";
 import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
 
 

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "../css/ImageGallery.css";
-import Button from "./Button.jsx";
+import Button from "../components/Button.jsx";
 import {FaArrowLeft} from "react-icons/fa";
 import {FaArrowRight} from "react-icons/fa";
 import {IoClose} from "react-icons/io5";

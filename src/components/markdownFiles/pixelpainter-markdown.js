@@ -1,6 +1,9 @@
 const pixelpainterMarkdown =
 `# PixelPainter
 
+![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/PixelPainter)
+![GitHub license](https://img.shields.io/github/license/technozombie/PixelPainter)
+
 A simple pixel art drawing application built with Java and the SimpleGraphics library.
 
 Based on an exercise made during #93rd bootcamp at Academia de Código / CodeForAll_ bootcamp, this is a paint-like program based on grid coordinates.

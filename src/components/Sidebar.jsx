@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from "./Button.jsx";
 import "../css/Sidebar.css";
-import PixelPainterEnhanced from "./PixelPainterEnhanced.jsx";
+import { FaHome } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Sidebar() {
     return (
@@ -11,9 +12,10 @@ function Sidebar() {
 
                 <Button
                     className={"sidebar-button"}
-                    children={"Home"}
-                    link="/Home"
-                />
+                    link="/Home">
+                    <FaHome/>
+                </Button>
+
                 <Button
                     className={"sidebar-button"}
                     children={"About"}
@@ -69,9 +71,9 @@ function Sidebar() {
                 />
                 <Button
                     className={"sidebar-button"}
-                    children={"Visit GitHub Repo"}
                     link="https://github.com/technozombie"
-                />
+                ><FaGithub/> Repository</Button>
+
             </div>
         </div>
     );
