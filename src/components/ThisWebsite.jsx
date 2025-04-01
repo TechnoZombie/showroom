@@ -1,5 +1,7 @@
 import React from 'react';
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
+import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
+import thisWebsiteMarkdown from "./markdownFiles/thisWebsite-markdown.js";
 
 const ThisWebsite = () => {
 
@@ -10,7 +12,7 @@ const ThisWebsite = () => {
             exit={{opacity: 0}}
             transition={{duration: 1.3}}
         >
-            <p>this website. placeholder</p>
+            <MarkdownRenderer markdownContent={thisWebsiteMarkdown}/>
         </motion.div>
     );
 };
