@@ -14,17 +14,12 @@ import Showcase from "./components/Showcase.jsx";
 import PixelPainterEnhanced from "./components/PixelPainterEnhanced.jsx";
 
 function App() {
-
     return (
         <>
-            {/*     <div className="header-bar">
-              <Header/>
-            </div>*/}
-
-           <Sidebar/>
-           <Showcase/>
-
-        </>)
+            <Sidebar/>
+            <Showcase/>
+        </>
+    );
 }
 
-export default App
+export default App;
