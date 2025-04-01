@@ -123,8 +123,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
 `,Gb=()=>ne.jsx(ne.Fragment,{children:ne.jsx(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:ne.jsx(Oi,{markdownContent:U8})})}),F8=()=>ne.jsx(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:ne.jsx("div",{children:ne.jsx("iframe",{src:"https://technozombie.github.io/QRCodeGenerator/",title:"QRCode Generator",width:"100%",height:"100%",allowFullScreen:!0})})}),B8=`# PixelPainter: Enhanced!
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/PixelPainter-Enhanced)
-![GitHub license](https://img.shields.io/github/license/technozombie/PixelPainter-Enhanced)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/PixelPainter-Enhanced)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/PixelPainter-Enhanced)
 
 A Java-based pixel art creation tool that combines simplicity with powerful features. PixelPainter: Enhanced! provides an intuitive grid-based canvas where users can create pixel art through a combination of keyboard controls and mouse interactions (work in progress).
 
@@ -261,8 +261,8 @@ Currently in active development with regular updates and improvements. The core 
 
 PixelPainter: Enhanced! is a demonstration of modern Java application design, combining practical functionality with clean architecture and efficient implementation.`;function P8(e){return ls({attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{d:"m289.94 256 95-95A24 24 0 0 0 351 127l-95 95-95-95a24 24 0 0 0-34 34l95 95-95 95a24 24 0 1 0 34 34l95-95 95 95a24 24 0 0 0 34-34z"},child:[]}]})(e)}function z8({images:e}){const[t,n]=G.useState(null),i=d=>{n(d),document.body.style.overflow="hidden"},s=()=>{n(null),document.body.style.overflow="auto"},l=d=>{d.stopPropagation(),n(p=>p>0?p-1:e.length-1)},u=d=>{d.stopPropagation(),n(p=>p<e.length-1?p+1:0)};return ne.jsxs("div",{className:"gallery",children:[ne.jsx("div",{className:"thumbnail-grid",children:e.map((d,p)=>ne.jsx("div",{className:"thumbnail-container",onClick:()=>i(p),children:ne.jsx("img",{src:d.src,alt:d.alt||`Image ${p+1}`,className:"thumbnail"})},p))}),t!==null&&ne.jsxs("div",{className:"lightbox",onClick:s,children:[ne.jsx(Yt,{className:"close-btn",onClick:s,children:ne.jsx(P8,{})}),ne.jsx(Yt,{className:"nav-btn nav-btn-left",onClick:l,children:ne.jsx(VU,{})}),ne.jsx("img",{src:e[t].src,alt:e[t].alt||`Image ${t+1}`,className:"full-image"}),ne.jsx(Yt,{className:"nav-btn nav-btn-right",onClick:u,children:ne.jsx($U,{})})]})]})}const q8=()=>ne.jsx(ne.Fragment,{children:ne.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[ne.jsx(z8,{images:[{src:"./ppe/ppe01.png",alt:"Main Screen"},{src:"./ppe/ppe02.png",alt:"Edit Menu"},{src:"./ppe/ppe03.png",alt:"Manager Menu"},{src:"./ppe/ppe04.png",alt:"Help Menu"},{src:"./ppe/ppe05.png",alt:"Custom Color input"},{src:"./ppe/ppe06.png",alt:"Color Select Menu"}]}),ne.jsx(Oi,{markdownContent:B8})]})}),G8=`# SimplegraphZ!
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/Simplegraphz)
-![GitHub license](https://img.shields.io/github/license/technozombie/Simplegraphz)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/Simplegraphz)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/Simplegraphz)
 
 A shameless rip-off of  **simple-graphics** from Academia de Código / CodeForALL_.
 
@@ -428,8 +428,8 @@ Shapes that can be moved implement this interface:
 
 This project is licensed under the [MIT License](LICENSE).`,H8=()=>ne.jsx(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:ne.jsx(Oi,{markdownContent:G8})}),j8=()=>ne.jsx(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:ne.jsx("div",{style:{width:"100vw",height:"100vh"},children:ne.jsx("iframe",{src:"https://technozombie.github.io/spacenewzz/",title:"Spacenewzz",width:"100%",height:"100%",allowFullScreen:!0})})}),V8=`# PixelPainter
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/PixelPainter)
-![GitHub license](https://img.shields.io/github/license/technozombie/PixelPainter)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/PixelPainter)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/PixelPainter)
 
 A simple pixel art drawing application built with Java and the SimpleGraphics library.
 
@@ -550,8 +550,8 @@ PixelPainter is built using:
 This project is licensed under the [MIT License](LICENSE).`,$8=()=>ne.jsx(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:ne.jsx(Oi,{markdownContent:V8})}),Y8=`
 # TechnoZombie's Showroom
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/showroom)
-![GitHub license](https://img.shields.io/github/license/technozombie/showroom)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/showroom)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/showroom)
 
 A modern, React-based showroom website showcasing projects developed by TechnoZombie during their journey as a developer.
 
