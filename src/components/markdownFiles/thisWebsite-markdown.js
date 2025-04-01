@@ -2,8 +2,8 @@ const thisWebsiteMarkdown =
     `
 # TechnoZombie's Showroom
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/showroom)
-![GitHub license](https://img.shields.io/github/license/technozombie/showroom)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/showroom)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/showroom)
 
 A modern, React-based showroom website showcasing projects developed by TechnoZombie during their journey as a developer.
 

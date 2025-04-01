@@ -1,8 +1,8 @@
 const pixelpainterMarkdown =
 `# PixelPainter
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/PixelPainter)
-![GitHub license](https://img.shields.io/github/license/technozombie/PixelPainter)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/PixelPainter)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/PixelPainter)
 
 A simple pixel art drawing application built with Java and the SimpleGraphics library.
 
