@@ -1,8 +1,8 @@
 const pixelpainterEnhancedMarkdown =
 `# PixelPainter: Enhanced!
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/PixelPainter-Enhanced)
-![GitHub license](https://img.shields.io/github/license/technozombie/PixelPainter-Enhanced)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/PixelPainter-Enhanced)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/PixelPainter-Enhanced)
 
 A Java-based pixel art creation tool that combines simplicity with powerful features. PixelPainter: Enhanced! provides an intuitive grid-based canvas where users can create pixel art through a combination of keyboard controls and mouse interactions (work in progress).
 

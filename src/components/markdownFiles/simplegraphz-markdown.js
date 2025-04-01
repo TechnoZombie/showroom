@@ -1,8 +1,8 @@
 const simplegraphzMarkdown =
 `# SimplegraphZ!
 
-![GitHub last commit](https://img.shields.io/github/last-commit/technozombie/Simplegraphz)
-![GitHub license](https://img.shields.io/github/license/technozombie/Simplegraphz)
+![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/Simplegraphz)
+![GitHub license](https://img.shields.io/github/license/TechnoZombie/Simplegraphz)
 
 A shameless rip-off of  **simple-graphics** from Academia de Código / CodeForALL_.
 
