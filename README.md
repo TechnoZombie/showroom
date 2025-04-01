@@ -70,38 +70,38 @@ The showroom showcases the following projects:
 ### Setup
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone https://github.com/technozombie/showroom.git
-\`\`\`
+```
 
 2. Navigate to the project directory:
-\`\`\`bash
+```bash
 cd showroom
-\`\`\`
+```
 
 3. Install dependencies:
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 4. Start the development server:
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 5. The application will be available at \`http://localhost:5173\` (or another port if 5173 is in use)
 
 ### Building for Production
 
-\`\`\`bash
+```bash
 npm run build
 # or
 yarn build
-\`\`\`
+```
 
 The production build will be available in the \`dist\` directory.
 
