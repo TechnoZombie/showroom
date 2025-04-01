@@ -10,46 +10,65 @@ function Sidebar() {
             <div className="vertical-buttons">
 
                 <Button
+                    className={"sidebar-button"}
                     children={"Home"}
                     link="/Home"
                 />
                 <Button
+                    className={"sidebar-button"}
                     children={"About"}
                     link="/About"
                 />
 
                 <Button
+                    className={"sidebar-button"}
+                    children={".this"}
+                    link="/.this"
+                />
+
+                <Button
+                    className={"sidebar-button"}
                     children={"Currency Converter"}
                     link="/CurrencyConverter"
                 />
 
                 <Button
+                    className={"sidebar-button"}
                     children={"QRCode Generator"}
                     link="/QRCodeGenerator"
                 />
 
                 <Button
+                    className={"sidebar-button"}
                     children={"Chuck Norris: Facts."}
                     link="/ChuckNorrisFacts"
                 />
 
                 <Button
+                    className={"sidebar-button"}
                     children={"Spacenewzz"}
                     link="/Spacenewzz"
-                    />
-
-                <Button children={"PixelPainter"}
-                        link="/PixelPainter"
                 />
 
-                <Button children={"PixelPainter: Enhanced!"}
-                        link="/PixelPainterEnhanced"
+                <Button
+                    className={"sidebar-button"}
+                    children={"PixelPainter"}
+                    link="/PixelPainter"
                 />
 
-                <Button children={"Simplegraphz"}
-                        link="/Simplegraphz"
+                <Button
+                    className={"sidebar-button"}
+                    children={"PixelPainter: Enhanced!"}
+                    link="/PixelPainterEnhanced"
+                />
+
+                <Button
+                    className={"sidebar-button"}
+                    children={"Simplegraphz"}
+                    link="/Simplegraphz"
                 />
                 <Button
+                    className={"sidebar-button"}
                     children={"Visit GitHub Repo"}
                     link="https://github.com/technozombie"
                 />
