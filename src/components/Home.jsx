@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import "../css/Home.css";
 import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
 import homePageMarkdown from "./markdownFiles/homePage-markdown.js";
 
@@ -12,7 +13,7 @@ const Home = () => {
                 exit={{opacity: 0}}
                 transition={{duration: 1.3}}
             >
-                    <MarkdownRenderer markdownContent={homePageMarkdown}/>
+                <MarkdownRenderer markdownContent={homePageMarkdown} imageClassName="rounded-image" />
 
             </motion.div>
         </>
