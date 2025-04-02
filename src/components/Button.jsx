@@ -3,10 +3,8 @@ import {useNavigate} from 'react-router-dom';
 function Button({className, children, link, id, onClick}) {
     const navigate = useNavigate();
 
-    // Add a base class that all buttons will have
-    const baseClass = "unstyled-button";
-    // Combine the base class with any additional classes
-    const buttonClass = className ? `${baseClass} ${className}` : baseClass;
+    // Use either the provided className or fall back to unstyled-button
+    const buttonClass = className || "unstyled-button";
 
     const handleClick = (e) => {
         if (onClick) onClick(e);
