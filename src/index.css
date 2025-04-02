@@ -24,18 +24,16 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* Remove display: flex and place-items which are causing layout issues */
   min-width: 320px;
   min-height: 100vh;
+  height: 100%;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
