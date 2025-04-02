@@ -2,20 +2,22 @@
 .sidebar-container {
     position: fixed;
     left: 0;
-    top: 0; /* Start from the very top now */
-    height: 100vh; /* Full viewport height */
-    width: 12vw;
+    top: 0;
+    height: 100vh;
+    width: 15vw; /* Increased width for desktop */
     background-color: #242424;
     padding: 20px;
     overflow-y: auto;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    z-index: 101; /* Ensure sidebar is above header if needed */
+    z-index: 1000;
+    box-sizing: border-box;
 }
 
-.vertical-buttons {height: calc(100vh - 60px); /* Full viewport height minus header */
+.vertical-buttons {
+    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    gap: 5px; /* Space between buttons */
+    gap: 5px;
 }
 
 .sidebar-button {
@@ -28,6 +30,10 @@
     background-color: #1a1a1a;
     cursor: pointer;
     transition: border-color 0.25s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 10vw; /* Ensure minimum width for text */
 }
 
 .sidebar-button:hover {
@@ -39,8 +45,32 @@
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Add this to adjust your main content to make room for the sidebar */
-.main-content {
-    margin-left: 200px; /* Same as sidebar width */
-    padding: 20px;
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    .sidebar-container {
+        width: 25vw;
+        padding: 10px;
+    }
+
+    .sidebar-button {
+        padding: 0.5em 0.8em;
+        font-size: 0.9em;
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+    .sidebar-container {
+        width: 30vw;
+        padding: 8px;
+    }
+
+    .sidebar-button {
+        padding: 0.4em 0.6em;
+        font-size: 0.8em;
+    }
+
+    .vertical-buttons {
+        gap: 3px;
+    }
 }
