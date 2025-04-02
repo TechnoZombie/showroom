@@ -7,8 +7,8 @@ body {
 
 /* Main content area - adjusts to sidebar width */
 .main-content {
-    width: calc(100% - 15vw - 40px); /* Match new sidebar width */
-    margin-left: calc(15vw + 40px); /* Match new sidebar width */
+    width: calc(100% - 15vw - 40px); /* Match sidebar width */
+    margin-left: calc(15vw + 40px); /* Match sidebar width */
     padding: 20px;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -51,9 +51,12 @@ html, body {
     width: 100%;
     height: 100%;
     position: relative;
-    margin-left: calc(15vw + 40px); /* Match new sidebar width */
-    width: calc(100% - 15vw - 40px); /* Match new sidebar width */
+    margin-left: calc(15vw + 40px); /* Match sidebar width */
+    width: calc(100% - 15vw - 40px); /* Match sidebar width */
     box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    max-width: 100%; /* Ensure it doesn't exceed available space */
+    margin-right: 0; /* Remove any right margin */
 }
 
 .showcase iframe {
@@ -61,6 +64,19 @@ html, body {
     height: 100vh;
     border: none;
     display: block;
+    overflow-x: hidden; /* Prevent horizontal overflow in iframe */
+    max-width: 100%; /* Ensure it doesn't exceed parent container */
+    margin: 0; /* Remove any margin */
+}
+
+/* Fix for embedded content */
+.showcase iframe html,
+.showcase iframe body,
+.showcase iframe #root {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* Mobile responsiveness */

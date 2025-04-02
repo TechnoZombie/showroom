@@ -1,11 +1,13 @@
 #root {
-  /* Remove the max-width restriction to allow full-width layout */
+  /* Remove the max-width restriction and auto margins */
   max-width: none;
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: center;
   height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .logo {
@@ -38,8 +40,16 @@
 
 .card {
   padding: 2em;
+  max-width: 100%; /* Ensure cards don't cause overflow */
+  box-sizing: border-box;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+/* Global override to prevent embedded content overflow */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
 }
