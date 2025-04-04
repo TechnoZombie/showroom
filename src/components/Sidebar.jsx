@@ -24,8 +24,8 @@ function Sidebar() {
 
                 <Button
                     className={"sidebar-button"}
-                    children={".this"}
-                    link="/.this"
+                    children={"this."}
+                    link="/this."
                 />
 
                 <Button
