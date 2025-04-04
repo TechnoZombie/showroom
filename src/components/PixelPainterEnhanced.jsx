@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import pixelpainterEnhancedMarkdown from "./markdownFiles/pixelpainter-enhanced-markdown.js";
 import ImageGallery from "../utils/ImageGallery.jsx";
 import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
+import Button from "./Button.jsx";
+import {FaGithub} from "react-icons/fa";
 
 
 const PixelPainterEnhanced = () => {
@@ -14,6 +16,11 @@ const PixelPainterEnhanced = () => {
                 exit={{opacity: 0}}
                 transition={{duration: 1.3}}
             >
+
+                <Button
+                    className={"viewOnGithub-button"}
+                    link="https://github.com/technozombie/PixelPainter-Enhanced"
+                ><FaGithub/> View on GitHub</Button>
 
                 <ImageGallery
                     images={[
