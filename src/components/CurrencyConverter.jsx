@@ -1,8 +1,8 @@
 import React from 'react';
-import { motion }  from "framer-motion";
-import Button from "./Button.jsx";
-import {FaGithub} from "react-icons/fa";
+import {motion} from "framer-motion";
+import GitHubButtonAndTechTag from "../utils/GitHubButtonAndTechTag.jsx";
 
+const link = "https://github.com/technozombie/CurrencyConverter";
 const CurrencyConverter = () => {
     return (
         <motion.div
@@ -11,21 +11,20 @@ const CurrencyConverter = () => {
             exit={{opacity: 0}}
             transition={{duration: 1.3}}
         >
-            <Button
-                className={"viewOnGithub-button"}
-                link="https://github.com/technozombie/CurrencyConverter"
-            ><FaGithub/> View on GitHub</Button>
+            <GitHubButtonAndTechTag
+                link={link}
+                techs={["javascript"]}/>
 
-        <div style={{width: '100vw', height: '100vh'}}>
-            <iframe
-                src="https://technozombie.github.io/CurrencyConverter/"
-                title="Currency Converter"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allowFullScreen
-            ></iframe>
-        </div>
+            <div style={{width: '100vw', height: '100vh'}}>
+                <iframe
+                    src="https://technozombie.github.io/CurrencyConverter/"
+                    title="Currency Converter"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allowFullScreen
+                ></iframe>
+            </div>
         </motion.div>
     );
 };

@@ -1,8 +1,8 @@
 import React from 'react';
-import { motion } from "framer-motion";
-import Button from "./Button.jsx";
-import {FaGithub} from "react-icons/fa";
+import {motion} from "framer-motion";
+import GitHubButtonAndTechTag from "../utils/GitHubButtonAndTechTag.jsx";
 
+const link = "https://github.com/TechnoZombie/QRCodeGenerator";
 const QRCodeGenerator = () => {
     return (
         <motion.div
@@ -11,10 +11,10 @@ const QRCodeGenerator = () => {
             exit={{opacity: 0}}
             transition={{duration: 1.3}}
         >
-            <Button
-                className={"viewOnGithub-button"}
-                link="https://github.com/technozombie/QRCodeGenerator"
-            ><FaGithub/> View on GitHub</Button>
+
+            <GitHubButtonAndTechTag
+                link={link}
+                techs={["javascript"]}/>
 
             <div style={{width: '100vw', height: '100vh'}}>
                 <iframe
@@ -26,6 +26,8 @@ const QRCodeGenerator = () => {
                 ></iframe>
             </div>
         </motion.div>
+
+
     );
 };
 
