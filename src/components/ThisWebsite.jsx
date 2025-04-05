@@ -2,9 +2,9 @@ import React from 'react';
 import {motion} from "framer-motion";
 import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
 import thisWebsiteMarkdown from "./markdownFiles/thisWebsite-markdown.js";
-import Button from "./Button.jsx";
-import {FaGithub} from "react-icons/fa";
+import GitHubButtonAndTechTag from "../utils/GitHubButtonAndTechTag.jsx";
 
+const link = "https://github.com/technozombie/showroom";
 const ThisWebsite = () => {
 
     return (
@@ -14,10 +14,10 @@ const ThisWebsite = () => {
             exit={{opacity: 0}}
             transition={{duration: 1.3}}
         >
-            <Button
-                className={"viewOnGithub-button"}
-                link="https://github.com/technozombie/showroom"
-            ><FaGithub/> View on GitHub</Button>
+
+            <GitHubButtonAndTechTag
+                link={link}
+                techs={["react", "vite", "javascript"]}/>
 
             <MarkdownRenderer markdownContent={thisWebsiteMarkdown}/>
         </motion.div>

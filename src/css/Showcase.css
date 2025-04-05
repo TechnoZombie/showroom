@@ -51,8 +51,8 @@ html, body {
     width: 100%;
     height: 100%;
     position: relative;
-    margin-left: calc(15vw + 40px); /* Match sidebar width */
-    width: calc(100% - 15vw - 40px); /* Match sidebar width */
+    margin-left: calc(15vw + 20px); /* Match sidebar width */
+    width: calc(100% - 15vw - 20px); /* Match sidebar width */
     box-sizing: border-box;
     overflow-x: hidden; /* Prevent horizontal overflow */
     max-width: 100%; /* Ensure it doesn't exceed available space */

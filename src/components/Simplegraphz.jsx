@@ -1,10 +1,10 @@
 import React from 'react';
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import simplegraphzMarkdown from "./markdownFiles/simplegraphz-markdown.js";
 import MarkdownRenderer from "../utils/MarkdownRenderer.jsx";
-import Button from "./Button.jsx";
-import {FaGithub} from "react-icons/fa";
+import GitHubButtonAndTechTag from "../utils/GitHubButtonAndTechTag.jsx";
 
+const link = "https://github.com/TechnoZombie/Simplegraphz"
 const Simplegraphz = () => {
 
     return (
@@ -14,10 +14,9 @@ const Simplegraphz = () => {
             exit={{opacity: 0}}
             transition={{duration: 1.3}}
         >
-            <Button
-                className={"viewOnGithub-button"}
-                link="https://github.com/TechnoZombie/Simplegraphz"
-            ><FaGithub/> View on GitHub</Button>
+            <GitHubButtonAndTechTag
+                link={link}
+                techs={["java"]}/>
 
             <MarkdownRenderer markdownContent={simplegraphzMarkdown}/>
         </motion.div>
