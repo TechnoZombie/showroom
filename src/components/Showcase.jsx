@@ -19,7 +19,7 @@ function Showcase() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/Home" element={<Home/>}/>
                 <Route path="/About" element={<About/>}/>
-                <Route path="/this." element={<ThisWebsite/>}/>
+                <Route path="/this" element={<ThisWebsite/>}/>
                 <Route path="/CurrencyConverter" element={<CurrencyConverter/>}/>
                 <Route path="/QRCodeGenerator" element={<QRCodeGenerator/>}/>
                 <Route path="/ChuckNorrisFacts" element={<ChuckNorrisFacts/>}/>
