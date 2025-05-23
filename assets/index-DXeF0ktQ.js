@@ -652,14 +652,5 @@ This website represents the developer's journey from a different career path int
 
 The showroom demonstrates growth through various personal projects developed to enhance newly acquired skills, ranging from React applications to Java programs and libraries.
 
-## 📝 License
-
-[MIT License](LICENSE)
-
-## 🔗 Links
-
-- [GitHub Repository](https://github.com/technozombie)
-- Live Demo: [TechnoZombie's Projects](https://technozombie.github.io/showroom)
-
 ---
     `,gK="https://github.com/technozombie/showroom",mK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:gK,techs:["react","vite","javascript"]}),X.jsx(Li,{markdownContent:fK})]});function hK(){return X.jsx("div",{className:"showcase",children:X.jsxs(iU,{children:[X.jsx(tn,{path:"/",element:X.jsx(Hb,{})}),X.jsx(tn,{path:"/Home",element:X.jsx(Hb,{})}),X.jsx(tn,{path:"/About",element:X.jsx(H8,{})}),X.jsx(tn,{path:"/this",element:X.jsx(mK,{})}),X.jsx(tn,{path:"/CurrencyConverter",element:X.jsx(K8,{})}),X.jsx(tn,{path:"/QRCodeGenerator",element:X.jsx(Z8,{})}),X.jsx(tn,{path:"/ChuckNorrisFacts",element:X.jsx(J8,{})}),X.jsx(tn,{path:"/Spacenewzz",element:X.jsx(uK,{})}),X.jsx(tn,{path:"/PixelPainter",element:X.jsx(pK,{})}),X.jsx(tn,{path:"/PixelPainterEnhanced",element:X.jsx(aK,{})}),X.jsx(tn,{path:"/Simplegraphz",element:X.jsx(sK,{})}),X.jsx(tn,{path:"*",element:X.jsx(Hb,{})})]})})}function bK(){return X.jsxs(X.Fragment,{children:[X.jsx(tO,{}),X.jsx(hK,{})]})}$U.createRoot(document.getElementById("root")).render(X.jsx(xU,{children:X.jsx(bK,{})}));
