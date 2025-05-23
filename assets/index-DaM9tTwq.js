@@ -536,9 +536,7 @@ PixelPainter is built using:
 - Layer support
 - Custom color picker
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).`,dK="https://github.com/technozombie/pixelpainter",pK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:dK,techs:["java"]}),X.jsx(Li,{markdownContent:cK})]}),fK=`
+`,dK="https://github.com/technozombie/pixelpainter",pK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:dK,techs:["java"]}),X.jsx(Li,{markdownContent:cK})]}),fK=`
 # TechnoZombie's Showroom
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/showroom)
