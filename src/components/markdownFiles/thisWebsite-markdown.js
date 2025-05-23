@@ -113,15 +113,6 @@ This website represents the developer's journey from a different career path int
 
 The showroom demonstrates growth through various personal projects developed to enhance newly acquired skills, ranging from React applications to Java programs and libraries.
 
-## 📝 License
-
-[MIT License](LICENSE)
-
-## 🔗 Links
-
-- [GitHub Repository](https://github.com/technozombie)
-- Live Demo: [TechnoZombie's Projects](https://technozombie.github.io/showroom)
-
 ---
     `
 
