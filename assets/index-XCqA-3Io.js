@@ -415,9 +415,7 @@ Shapes that can be filled implement this interface:
 Shapes that can be moved implement this interface:
 - Translating the shape by a given amount
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).`,oK="https://github.com/TechnoZombie/Simplegraphz",sK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:oK,techs:["java"]}),X.jsx(Li,{markdownContent:iK})]}),lK="https://github.com/TechnoZombie/spacenewzz",uK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:lK,techs:["react","vite","javascript"]}),X.jsx("div",{style:{width:"100vw",height:"100vh"},children:X.jsx("iframe",{src:"https://technozombie.github.io/spacenewzz/",title:"Spacenewzz",width:"100%",height:"100%",allowFullScreen:!0})})]}),cK=`# PixelPainter
+`,oK="https://github.com/TechnoZombie/Simplegraphz",sK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:oK,techs:["java"]}),X.jsx(Li,{markdownContent:iK})]}),lK="https://github.com/TechnoZombie/spacenewzz",uK=()=>X.jsxs(Hn.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:1.3},children:[X.jsx(Er,{link:lK,techs:["react","vite","javascript"]}),X.jsx("div",{style:{width:"100vw",height:"100vh"},children:X.jsx("iframe",{src:"https://technozombie.github.io/spacenewzz/",title:"Spacenewzz",width:"100%",height:"100%",allowFullScreen:!0})})]}),cK=`# PixelPainter
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/TechnoZombie/PixelPainter)
 ![GitHub license](https://img.shields.io/github/license/TechnoZombie/PixelPainter)
