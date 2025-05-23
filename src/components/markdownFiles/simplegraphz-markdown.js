@@ -164,8 +164,6 @@ Shapes that can be filled implement this interface:
 Shapes that can be moved implement this interface:
 - Translating the shape by a given amount
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).`;
+`;
 
 export default simplegraphzMarkdown;
