@@ -118,8 +118,6 @@ PixelPainter is built using:
 - Layer support
 - Custom color picker
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).`;
+`;
 
 export default pixelpainterMarkdown;
