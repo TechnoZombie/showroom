@@ -11,6 +11,7 @@ import Spacenewzz from "./Spacenewzz.jsx";
 import PixelPainter from "./PixelPainter.jsx";
 import {Route, Routes} from "react-router-dom";
 import ThisWebsite from "./ThisWebsite.jsx";
+import DeadParrot from "./DeadParrot.jsx";
 
 function Showcase() {
     return (
@@ -20,6 +21,7 @@ function Showcase() {
                 <Route path="/Home" element={<Home/>}/>
                 <Route path="/About" element={<About/>}/>
                 <Route path="/this" element={<ThisWebsite/>}/>
+                <Route path="/DeadParrot" element={<DeadParrot/>}/>
                 <Route path="/CurrencyConverter" element={<CurrencyConverter/>}/>
                 <Route path="/QRCodeGenerator" element={<QRCodeGenerator/>}/>
                 <Route path="/ChuckNorrisFacts" element={<ChuckNorrisFacts/>}/>

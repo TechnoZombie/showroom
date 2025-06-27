@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from "./Button.jsx";
 import "../css/Sidebar.css";
-import { FaHome } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import {FaHome} from "react-icons/fa";
+import {FaGithub} from "react-icons/fa";
 
 function Sidebar() {
     return (
@@ -26,6 +26,12 @@ function Sidebar() {
                     className={"sidebar-button"}
                     children={"this"}
                     link="/this"
+                />
+
+                <Button
+                    className={"sidebar-button"}
+                    children={"DeadParrot"}
+                    link="/DeadParrot"
                 />
 
                 <Button
