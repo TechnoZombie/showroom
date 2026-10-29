@@ -1,6 +1,6 @@
 import {useNavigate} from 'react-router-dom';
 
-function Button({className, children, link, id, onClick}) {
+function Button({className, children, link, id, onClick, ariaCurrent}) {
     const navigate = useNavigate();
 
     // Use either the provided className or fall back to unstyled-button
@@ -19,7 +19,7 @@ function Button({className, children, link, id, onClick}) {
     };
 
     return (
-        <button className={buttonClass} id={id} onClick={handleClick}>
+        <button className={buttonClass} id={id} onClick={handleClick} aria-current={ariaCurrent} type="button">
             {children}
         </button>
     );
