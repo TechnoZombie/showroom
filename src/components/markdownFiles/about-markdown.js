@@ -1,18 +1,21 @@
 const aboutMarkdown = `
 # About
 
-After many years in a totally different career path, I've embarked in a full-stack bootcamp back in September 2023.
+Hello!
 
-By March 2024 I was stepping in to my first professional experience as a Java backend developer, focusing mainly in microservices built with Spring/SpringBoot.
+My route into software development wasn't exactly a straight line, and that's part of what makes it fun.
 
-During all this time, I kept doing personal projects that would allow me to keep learning at my own pace and keep developing my newly aqcuired skills.
+After several years in a different career, I joined a full-stack bootcamp in September 2023. By March 2024, I was starting my first professional role as a Java backend developer, working mainly with Spring and Spring Boot microservices.
 
-This website is a portfolio of the most significant projects I've developed so far during my personal path for improvement.
-Ranging from webapps developed with React+Vite to plain JavaScript to Java apps and libraries, a sample of this path can be seen here.
+I keep learning by building things outside of work, too. This showroom brings together projects that let me explore Java desktop apps and libraries, React and Vite, and plain JavaScript—from pixel art tools to a space news aggregator. Some are practical, some are just for fun, and each one has taught me something along the way.
 
-All projects have a link to their GitHub Repository where they can be seen in more detail.
+Take a look around. Each project links to its GitHub repository, where you can find more details and see how it came together.
 
-Thank you for your visit!
+Thanks for stopping by!
+
+I hope you find something interesting.
+
+TZ
 `
 
 export default aboutMarkdown;

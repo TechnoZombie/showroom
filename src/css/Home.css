@@ -1,7 +1,331 @@
+.home-page {
+    width: min(100% - clamp(2rem, 8vw, 8rem), 1180px);
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4.5rem) 0 1.5rem;
+    text-align: left;
+}
+
+.home-hero {
+    position: relative;
+    display: grid;
+    min-height: min(62vh, 590px);
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.62fr);
+    align-items: center;
+    gap: clamp(2rem, 7vw, 7rem);
+    padding: 1rem clamp(0rem, 2vw, 1.5rem) clamp(3rem, 7vw, 6rem);
+    border-bottom: 1px solid var(--color-rule);
+}
+
+.home-intro {
+    position: relative;
+    z-index: 1;
+    padding: 2rem 0;
+}
+
+.home-eyebrow {
+    margin: 0 0 1.6rem;
+    color: var(--color-muted-strong);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.17em;
+    line-height: 1.5;
+}
+
+.home-eyebrow span {
+    padding: 0 0.35rem;
+    color: var(--color-accent-soft);
+}
+
+.home-intro h1 {
+    max-width: 720px;
+    margin: 0;
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-size: clamp(3.8rem, 8.5vw, 7.6rem);
+    font-weight: 400;
+    letter-spacing: -0.075em;
+    line-height: 0.88;
+}
+
+.home-intro h1 em {
+    color: var(--color-accent-deep);
+    font-weight: 400;
+}
+
+.home-description {
+    max-width: 25rem;
+    margin: 1.8rem 0 1.4rem;
+    color: var(--color-muted);
+    font-size: clamp(0.95rem, 1.4vw, 1.08rem);
+    line-height: 1.75;
+}
+
+.home-about-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0.42rem;
+    border-bottom: 1px solid var(--color-accent-rule);
+    color: var(--color-ink);
+    font-size: 0.82rem;
+    font-weight: 650;
+    text-decoration: none;
+    transition: gap 150ms ease, color 150ms ease;
+}
+
+.home-about-link:hover {
+    gap: 1.35rem;
+    color: var(--color-accent-link);
+}
+
+.home-portrait {
+    position: relative;
+    width: min(100%, 340px);
+    justify-self: start;
+    margin: 0;
+    padding: 0.65rem;
+    border: 1px solid var(--color-photo-border);
+    background: var(--color-photo-paper);
+    transform: rotate(1.7deg);
+}
+
+.home-portrait .readme-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-portrait .readme-container p {
+    margin: 0;
+    line-height: 0;
+}
+
 .rounded-image {
-    border-radius: 15px; /* Adjust as needed */
     display: block;
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: left top;
+    filter: saturate(0.82);
+}
+
+.home-portrait figcaption {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.72rem 0.12rem 0.2rem;
+    color: var(--color-caption);
+    font-size: 0.56rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.home-portrait figcaption span {
+    color: var(--color-accent-rule);
+}
+
+.hero-side-note {
+    position: absolute;
+    right: -0.4rem;
+    bottom: 1.3rem;
+    color: var(--color-side-note);
+    font-size: 0.57rem;
+    letter-spacing: 0.14em;
+    writing-mode: vertical-rl;
+}
+
+.project-index {
+    padding: clamp(2.5rem, 5vw, 4rem) clamp(0rem, 2vw, 1.5rem) 0;
+}
+
+.project-index-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 1.2rem;
+}
+
+.project-index-heading .home-eyebrow {
+    margin-bottom: 0.65rem;
+}
+
+.project-index-heading h2 {
+    margin: 0;
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    letter-spacing: -0.055em;
+}
+
+.project-count {
+    padding-bottom: 0.35rem;
+    color: var(--color-accent-deep);
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.project-count span {
+    margin-left: 0.25rem;
+    color: var(--color-muted);
+    font-family: inherit;
+    font-size: 0.55rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+}
+
+.project-index-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(1.5rem, 5vw, 5rem);
+}
+
+.project-index-link {
+    display: grid;
+    min-width: 0;
+    grid-template-columns: 2rem minmax(0, 1fr) 1rem;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1.05rem 0.25rem;
+    border-top: 1px solid var(--color-rule);
+    color: var(--color-ink);
+    text-decoration: none;
+    transition: color 150ms ease, padding 150ms ease;
+}
+
+.project-index-link:hover {
+    padding-right: 0;
+    padding-left: 0.45rem;
+    color: var(--color-accent-link);
+}
+
+.project-number {
+    color: var(--color-accent-rule);
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.project-name {
+    overflow: hidden;
+    font-size: 0.91rem;
+    font-weight: 550;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.project-arrow {
+    color: var(--color-arrow);
+    font-size: 0.9rem;
+}
+
+.home-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: clamp(2rem, 4vw, 3.5rem);
+    padding: 1rem 0;
+    border-top: 1px solid var(--color-rule);
+    color: var(--color-muted);
+    font-size: 0.68rem;
+    letter-spacing: 0.07em;
+}
+
+@media (max-width: 1000px) {
+    .home-hero {
+        gap: 2rem;
+    }
+
+    .home-intro h1 {
+        font-size: clamp(3.4rem, 8vw, 6rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page {
+        width: min(100% - 2rem, 600px);
+        padding-top: 1.5rem;
+    }
+
+    .home-hero {
+        min-height: 0;
+        grid-template-columns: minmax(0, 1fr) minmax(110px, 0.48fr);
+        gap: 1.1rem;
+        padding: 0 0 2.5rem;
+    }
+
+    .home-intro {
+        padding: 1.8rem 0;
+    }
+
+    .home-eyebrow {
+        margin-bottom: 1rem;
+        font-size: 0.56rem;
+        letter-spacing: 0.12em;
+    }
+
+    .home-intro h1 {
+        font-size: clamp(3rem, 10vw, 5rem);
+    }
+
+    .home-description {
+        margin-top: 1.2rem;
+        font-size: 0.88rem;
+    }
+
+    .home-portrait {
+        width: 100%;
+        padding: 0.4rem;
+    }
+
+    .home-portrait figcaption {
+        font-size: 0.44rem;
+        letter-spacing: 0.07em;
+    }
+
+    .hero-side-note {
+        display: none;
+    }
+
+    .project-index {
+        padding: 2.2rem 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-hero {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .home-intro {
+        padding-bottom: 0.5rem;
+    }
+
+    .home-intro h1 {
+        font-size: clamp(3.5rem, 16vw, 5rem);
+    }
+
+    .home-portrait {
+        width: min(70%, 260px);
+        justify-self: start;
+        margin: 0 0 0.8rem;
+    }
+
+    .project-index-list {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .project-index-heading h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-about-link,
+    .project-index-link {
+        transition: none;
+    }
 }
