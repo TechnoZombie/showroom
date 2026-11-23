@@ -3,8 +3,6 @@ const aboutMarkdown = `
 
 Hello!
 
-THIS IS A TEST TO SEE IF THE AUTO DEPLOYMENT IS WORKING. I AM GOING TO TRY TO MAKE A CHANGE TO THIS FILE AND SEE IF IT AUTOMATICALLY UPDATES ON THE WEBSITE.
-
 My route into software development wasn't exactly a straight line, and that's part of what makes it fun.
 
 After several years in a different career, I joined a full-stack bootcamp in September 2023. By March 2024, I was starting my first professional role as a Java backend developer, working mainly with Spring and Spring Boot microservices.
