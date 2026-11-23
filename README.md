@@ -105,6 +105,15 @@ yarn build
 
 The production build will be available in the \`dist\` directory.
 
+### Running Tests
+
+```bash
+npm test
+npm run test:coverage
+```
+
+The coverage command enforces at least 95% statements, branches, functions, and lines in every application JavaScript and JSX file. The deployment workflow runs this coverage gate before building.
+
 ## 👨‍💻 Developer Journey
 
 This website represents the developer's journey from a different career path into software development, beginning with a full-stack bootcamp in September 2023 and progressing to professional experience as a Java backend developer by March 2024.
