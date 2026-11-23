@@ -1,4 +1,4 @@
-import flatEricImage from "/flat-mugshot.jpg";
+const flatEricImage = `${import.meta.env.BASE_URL}flat-mugshot.jpg`;
 
 const homePageMarkdown = `
 ![flat eric mugshot](${flatEricImage})
