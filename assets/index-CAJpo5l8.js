@@ -553,7 +553,7 @@ The showroom showcases the following projects:
 ## 🖥️ Installation and Usage
 
 ### Prerequisites
-- Node.js (v14.0.0 or higher)
+- Node.js 24.x
 - npm or yarn
 
 ### Setup
